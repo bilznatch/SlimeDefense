@@ -1,0 +1,27 @@
+
+textureatlas.png
+size: 512, 256
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+fire
+  rotate: false
+  xy: 2, 5
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+plainwhite
+  rotate: false
+  xy: 2, 2
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+tree
+  rotate: false
+  xy: 132, 5
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
