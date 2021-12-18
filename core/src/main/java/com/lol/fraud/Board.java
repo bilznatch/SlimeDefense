@@ -18,7 +18,7 @@ public class Board {
     ArrayList<Enemy> enemyList = new ArrayList<>();
     ArrayList<Projectile> projectiles = new ArrayList<>();
     float gameLength = 1;
-    int count = 0, pathLength = 0;
+    int count = 600, pathLength = 0;
     int targetingType = 0;
     int killed = 0;
 

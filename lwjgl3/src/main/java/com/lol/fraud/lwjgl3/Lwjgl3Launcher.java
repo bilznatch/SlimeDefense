@@ -17,7 +17,7 @@ public class Lwjgl3Launcher {
 
 	private static Lwjgl3ApplicationConfiguration getDefaultConfiguration() {
 		Lwjgl3ApplicationConfiguration configuration = new Lwjgl3ApplicationConfiguration();
-		configuration.setTitle("SuperFraudBattler");
+		configuration.setTitle("Slime Defense");
 		configuration.setWindowedMode(1600,900);
 		configuration.setWindowSizeLimits(1600,900,1920,1080);
 		configuration.setWindowIcon("libgdx128.png", "libgdx64.png", "libgdx32.png", "libgdx16.png");

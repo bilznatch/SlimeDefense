@@ -127,6 +127,7 @@ public class GameScreen implements Screen, InputProcessor {
         font.draw(batch,"Stun",50,200);
         batch.setShader(null);
         batch.end();
+        if(board.player.hp<=0)game.goToScreen(0);
     }
 
     public void moveCamera(){
